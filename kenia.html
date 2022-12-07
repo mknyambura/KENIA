@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENIA TEST</title>
+    <link rel="stylesheet" href="kenia.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="images/logo.svg" class="navbar-logo" alt="">
+        </div>
+        <div class="navbar-right">
+            <img src="images/avatar.png" class="navbar-avatar" alt="">
+        </div>
+        <div action="" id="form">
+            <input type="text" id="search" class="search" placeholder="Search">
+        </div>
+    </div>
+    <!-- Banner -->
+    <header id="banner">
+        <div id="banner-contents">
+            <h1 id="banner-title"></h1>
+            <div id="banner-buttons">
+                <div id="banner-button">Play</div>
+                <div id="banner-button">My List</div>
+            </div>
+            <p id="banner-description"></p>
+        </div>
+        <div id="banner-bottom-fade"></div>
+    </header>
+
+    <div id="head-row">
+        <div class="row">
+            <h2 class="row-title"></h2>
+            <div class="row-posters"></div>
+        </div>
+    </div>
+
+
+    <script>
+        window.addEventListener('scroll', function(){
+            var nav = document.querySelector('.navbar');
+            nav.classList.toggle('active', window.scrollY > 0)
+        })
+    </script>
+    <script src="kenia.js"></script>
+</body>
+</html>
