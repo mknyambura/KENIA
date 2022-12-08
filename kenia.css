@@ -185,9 +185,9 @@ footer {
 }
 #footer ul li a {
     text-decoration: none;
-    width: 60px;
+    /* width: 60px; */
     border-radius: 50%;
-    height: 60px;
+    /* height: 60px; */
 }
 #footer ul li a .fa-brands{
     font-size: 2em;
@@ -237,5 +237,5 @@ footer {
 }
 #footer ul li a:hover::before {
     height: 100%;
-    transform: scale(1);
+    /* transform: scale(1); */
 }
