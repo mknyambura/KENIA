@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KENIA TEST</title>
     <link rel="stylesheet" href="kenia.css">
+
+
+    <script>
+        window.addEventListener('scroll', function(){
+            var nav = document.querySelector('.navbar');
+            nav.classList.toggle('active', window.scrollY > 0)
+        })
+    </script>
+    <script src="kenia.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -39,13 +48,5 @@
         </div>
     </div>
 
-
-    <script>
-        window.addEventListener('scroll', function(){
-            var nav = document.querySelector('.navbar');
-            nav.classList.toggle('active', window.scrollY > 0)
-        })
-    </script>
-    <script src="kenia.js"></script>
 </body>
 </html>
