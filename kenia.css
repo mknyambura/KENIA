@@ -166,3 +166,26 @@ body{
 .search::placeholder {
     color: #73c5ad;
 }
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(27, 71, 58, 0.5);
+}
+#footer ul {
+    position: relative;
+    display: flex;
+}
+#footer ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+#footer ul li a {
+    text-decoration: none;
+}
+#footer ul li a .fa{
+    font-size: 2em;
+    color: #fff;
+}
