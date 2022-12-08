@@ -7,10 +7,11 @@ const api_url = base_url + '/discover/movie?sort_by=popularity.desc&' + api
 // images url 
 const image_url = "https://image.tmdb.org/t/p/original/"
 // search movie 
-// const search_url = base_url + '/search/movie?' + api
+const search_url = base_url + '/search/movie?' + api
 
+// const form = document.querySelector('form#search')
+// form.addEventListener('submit')
 
-// form.
 
 // request for movies data
 const requests = {
