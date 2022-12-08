@@ -8,7 +8,7 @@ Copyright (c) 2022 Mercy Nyambura Kariuki
 License: MIT
 
 ## About
-<a href="https://mknyambura.github.io/KENIA/">Kenia</a> is a Netflix Kenyan version; subscription-based streaming services that allows members to watch TV shows and movies on an internet connected device. 
+<a href="https://mknyambura.github.io/KENIA/" target="blank" rel="noopener noreferrer">Kenia</a> is a Netflix Kenyan version; subscription-based streaming services that allows members to watch TV shows and movies on an internet connected device. 
 
 Kenia offers you a wide variety of TV Shows, Movies, Nextflix Originals, Animations, Documentaries.
 
