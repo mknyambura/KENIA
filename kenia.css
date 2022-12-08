@@ -239,3 +239,40 @@ footer {
     height: 100%;
     /* transform: scale(1); */
 }
+#copyright p {
+    font-family: 'Poppins', sans-serif;
+    columns: #fff;
+}
+.navbar-left h1 {
+    font-size: 40px;
+}
+.navbar-left {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+}
+.navbar-left #red{
+    color: #ff0000;
+}
+.navbar-left #black{
+    color: rgb(0, 0, 0);
+}
+.navbar-left #green{
+    color: rgb(0, 255, 0);
+}
+.navbar-left #E{
+    transform: rotate(90deg);
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navbar-left #E h2{
+    -webkit-transform: scale(1, 2.3);
+    font-size: 20px;
+}
+.navbar-left h1 {
+    font-weight: 500;
+    font-family: 'Netflix Sans', sans-serif;
+}
