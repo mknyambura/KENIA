@@ -66,6 +66,7 @@ fetch(requests.fetchNetflixOriginals)
     var bannerTitle = document.querySelector('#banner-title');
     var bannerDescription = document.querySelector('#banner-description');
     banner.style.backgroundImage = 'url(' + image_url + setMovie.backdrop_path + ')';
+    // banner.style.cursor = 'pointer';
     bannerDescription.innerText = truncate(setMovie.overview, 150);
     bannerTitle.innerText = setMovie.name
 })
@@ -92,6 +93,7 @@ fetch(requests.fetchNetflixOriginals)
     data.results.forEach(movie => {
         const poster = document.createElement('img')
         poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer'
 
         var m = movie.name.replace(/\m+/g,'')
         poster.id = m;
@@ -122,6 +124,7 @@ fetch(requests.fetchPopular)
     data.results.forEach(movie => {
         const poster = document.createElement('img')
         poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer'
 
         var s = movie.id;
         poster.id = s;
@@ -152,6 +155,7 @@ fetch(requests.fetchTrendingMovies)
     data.results.forEach(movie => {
         const poster = document.createElement('img')
         poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -182,6 +186,7 @@ fetch(requests.fetchTrendingTVShows)
     data.results.forEach(movie => {
         const poster = document.createElement('img')
         poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -211,7 +216,8 @@ fetch(requests.fetchActionMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -241,7 +247,8 @@ fetch(requests.fetchAdventureMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -271,7 +278,8 @@ fetch(requests.fetchAnimationMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -301,7 +309,8 @@ fetch(requests.fetchComedyMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -331,7 +340,8 @@ fetch(requests.fetchCrimeMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -361,7 +371,8 @@ fetch(requests.fetchDocumentaries)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -391,7 +402,8 @@ fetch(requests.fetchDramaMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -421,7 +433,8 @@ fetch(requests.fetchFamilyMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -451,7 +464,8 @@ fetch(requests.fetchFantasyMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -481,7 +495,8 @@ fetch(requests.fetchHistoryMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -511,7 +526,8 @@ fetch(requests.fetchHorrorMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -541,7 +557,8 @@ fetch(requests.fetchMusicMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -571,7 +588,8 @@ fetch(requests.fetchMysteryMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -601,7 +619,8 @@ fetch(requests.fetchRomanceMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -631,7 +650,8 @@ fetch(requests.fetchSciFiMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -661,7 +681,8 @@ fetch(requests.fetchThrillerMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -691,7 +712,8 @@ fetch(requests.fetchWarMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
@@ -721,7 +743,8 @@ fetch(requests.fetchWesternMovies)
 
     data.results.forEach(movie => {
         const poster = document.createElement('img')
-        poster.className = 'row-poster';
+        poster.className = 'row-poster-large';
+        //poster.style.cursor = 'pointer';
 
         var s = movie.id;
         poster.id = s;
