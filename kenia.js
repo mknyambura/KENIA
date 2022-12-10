@@ -93,7 +93,10 @@ fetch(requests.fetchNetflixOriginals)
     data.results.forEach(movie => {
         const poster = document.createElement('img')
         poster.className = 'row-poster-large';
-        //poster.style.cursor = 'pointer'
+        poster.addEventListener('click', (event) => {
+            event.preventDefault()
+            console.log('I was clicked')
+        })        
 
         var m = movie.name.replace(/\m+/g,'')
         poster.id = m;
