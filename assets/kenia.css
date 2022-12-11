@@ -324,7 +324,7 @@ footer {
 }
 #quicklink {
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 20px
 }
 #quicklink .quicklink {
     text-transform: uppercase;
@@ -346,8 +346,8 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #d11881;
-    color: #333;
+    background: #4aff02e1;
+    color: rgb(253, 0, 76);
     width: 50px;
     height: 50px;
     display: grid;
