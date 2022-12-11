@@ -58,7 +58,7 @@ body.active{
 #actions {
     display: none;
 }
-#menu-open{
+#nav-open{
     font-size: 40.1px;
     color: rgb(255, 255, 255);
 }
@@ -86,12 +86,12 @@ body.active{
     align-items: center;
     justify-content: space-between;
 }
-#menu-close{
+#nav-close{
     font-size: 25.1px;
     color: hsl(0, 100%, 100%);
     padding: 5px;
 }
-#menu-close ion-icon {
+#nav-close ion-icon {
     --ionicon-stroke-width: 80.1px;
 }
 #navbar-list{
@@ -124,6 +124,7 @@ body.active{
     color: hsl(347, 97%, 45%);
 }
 #overlay{
+    display: contents;
     position: fixed;
     background: hsla(204, 18%, 11%, 0.8);
     inset: 0;
@@ -132,7 +133,7 @@ body.active{
     pointer-events: none;
     transition: 0.25s ease-in;
 }
-/* #overlay.active{
+#overlay.active{
     opacity: 1;
     pointer-events: all;
-} */
+}
