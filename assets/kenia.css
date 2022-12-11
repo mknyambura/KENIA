@@ -195,7 +195,7 @@ footer {
 }
 #footer #socials .socials li a .fa-brands{
     font-size: 2em;
-    color: #333;
+    color: rgb(74, 74, 74);
 }
 #footer #socials .socials li a::before {
     content: '';
