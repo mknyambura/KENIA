@@ -172,6 +172,7 @@ footer {
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     background-color: transparent;
 }
 #footer ul {
@@ -211,7 +212,7 @@ footer {
     background: -webkit-linear-gradient(-45deg, #405DE6, #5851DB,  #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
     background: linear-gradient(-45deg, #405DE6, #5851DB,  #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);    
     /* border-bottom: 4px solid #C13584; */
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #footer ul li:nth-child(2) a:hover::before{
@@ -276,4 +277,11 @@ footer {
 .navbar-left h1 {
     font-weight: 500;
     font-family: 'Netflix Sans', sans-serif;
+}
+#copyright{
+    color: #fff;
+}
+#socials, #copyright {
+    padding: 10px;
+    margin: 10px;
 }
