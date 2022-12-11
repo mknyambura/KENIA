@@ -333,6 +333,9 @@ footer {
     list-style: none;
     display: flex;
     gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 #quicklink .quicklink a{
     text-decoration: none;
@@ -412,5 +415,10 @@ footer {
         padding-top: 0.201rem;
         padding-bottom: 0.501rem;
     }
+    /* #footer #socials #quicklink .quicklink{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    } */
 }
 
