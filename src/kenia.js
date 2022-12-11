@@ -61,12 +61,12 @@ fetch(requests.fetchNetflixOriginals)
     console.log(data.results)
     // during every refresh, the movie will change
     const setMovie = data.results[Math.floor(Math.random() * data.results.length - 1)];
-    console.log(setMovie)
+    // console.log(setMovie)
     var banner = document.querySelector('#banner');
     var bannerTitle = document.querySelector('#banner-title');
     var bannerDescription = document.querySelector('#banner-description');
     banner.style.backgroundImage = 'url(' + image_url + setMovie.backdrop_path + ')';
-    // banner.style.cursor = 'pointer';
+    banner.style.cursor = 'pointer';
     bannerDescription.innerText = truncate(setMovie.overview, 150);
     bannerTitle.innerText = setMovie.name
 })
