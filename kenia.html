@@ -4,17 +4,20 @@
     <script>
         window.addEventListener('scroll', function(){
             var nav = document.querySelector('.navbar');
+            var goUp = document.querySelector('.go-up');
             nav.classList.toggle('active', window.scrollY > 0)
+            goUp.classList.toggle('active', window.scrollY >= 500)
         })
+
     </script>
-    <script src="kenia.js"></script>
+    <script src="src/kenia.js"></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KENIA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="kenia.css">
+    <link rel="stylesheet" href="assets/kenia.css">
 </head>
 <body>
     <div class="navbar">
@@ -59,17 +62,30 @@
 
     <footer id="footer">
         <div id="socials">
-            <ul>
+            <ul class="socials">
                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                 <!-- <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li> -->
                 <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
             </ul>
-        </div> 
-        <p id="copyright">
-            Copyright (c) 2022 Mercy Nyambura Kariuki || KENIA
-        </p>
+
+            <p id="copyright"> 
+                Copyright (c) 2022 <a href="kenia.html">Mercy Nyambura Kariuki || KENIA. </a> All Rights Reserved
+            </p>
+            <div id="divider"></div>
+            <div id="quicklink">
+                <ul class="quicklink">
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms Of Service</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
+
+    <a href="#banner" class="go-up"><i class="fa-sharp fa-solid fa-chevron-up"></i></a>
 
 </body>
 </html>
