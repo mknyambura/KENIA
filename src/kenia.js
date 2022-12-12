@@ -96,6 +96,8 @@ fetch(requests.fetchNetflixOriginals)
         poster.addEventListener('click', (event) => {
             event.preventDefault()
             console.log('I was clicked')
+            // document.querySelector('#banner').src = movie.image_url
+            // document.querySelector('#banner-title').innerText = movie.name
         })        
 
         var m = movie.name.replace(/\m+/g,'')
