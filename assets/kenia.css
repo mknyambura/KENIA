@@ -112,6 +112,7 @@ body{
 .row{
     margin-left: 20.1px;
     color: #fff;
+    text-transform: uppercase;
 }
 .row-poster{
     object-fit: contain;
