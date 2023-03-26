@@ -1,6 +1,6 @@
 .navbar-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     
     .navbar-logo{
@@ -34,19 +34,20 @@
                 margin-right: -1px;
             }
         }
-        .navbar-menu{
-            display: flex;
-            color: #fff;
-            gap: 18px;
-            margin-top: 8px;
-            margin-left: 50px;
-            font-size: 12px;
-            font-weight: 100;
-            h2{
-                &:hover{
-                    color: #0e5002;
-                    transition: all 0.3s ease-in-out;
-                }
+    }
+    .navbar-menu{
+        display: flex;
+        color: #fff;
+        gap: 18px;
+        margin-top: 8px;
+        margin-left: 50px;
+        font-size: 12px;
+        font-weight: 100;
+        h2{
+            &:hover{
+                cursor: pointer;
+                color: #0e5002;
+                transition: all 0.3s ease-in-out;
             }
         }
     }
