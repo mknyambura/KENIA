@@ -1,0 +1,90 @@
+.profile-screen{
+    height: 100vh;
+    color: #fff;
+    .profile-screen-body{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+        max-width: 800px;
+        .profile-screen-info{
+            display: flex;
+
+            img{
+                height: 100px;
+            }
+            .profile-screen-details{
+                color: #fff;
+                margin-left: 25px;
+                flex: 1;
+
+                h2{
+                    background-color: gray;
+                    padding: 15px;
+                    font-size: 15px;
+                    padding-left: 20px;
+                }
+                .profile-screen-plans{
+                    margin-top: 20px;
+                    
+                    p{
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        padding-bottom: 20px;
+                    }
+
+                    h3{
+                        border-bottom: 1px solid #282c2d;
+                        padding-bottom: 10px;
+                    }
+                    .profile-screen-sign-out{
+                        padding: 10px 20px;
+                        font-size: 1rem;
+                        width: 100%;
+                        color: #fff;
+                        font-weight: 600;
+                        background-color: #0e5002;
+                        margin-top: 5%;
+                        border: none;
+                        transition: all 0.5s ease-in-out;
+                        &:hover{
+                            background-color: #20b406;
+                            cursor: pointer;
+                        }
+                    }
+                    .profile-screen-subscriptions{
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        form{
+                            display: flex;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                            justify-content: space-between;
+                            width: 100%;
+                            button{
+                                color: #fff;
+                                background-color: #0e5002;
+                                border: none;
+                                padding: 8px 25px;
+                                font-weight: 600;
+                                transition: all 0.3s ease-in-out;
+                                &:hover{
+                                    cursor: pointer;
+                                    background-color: #20b406;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        h1{
+            font-size: 60px;
+            font-weight: 400;
+            border-bottom: 1px solid #282c2d;
+            margin-bottom: 20px;
+        }
+    }
+}
