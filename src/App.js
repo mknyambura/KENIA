@@ -7,14 +7,17 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import { useEffect } from 'react';
+import {toast} from 'react-toastify';
+import { useEffect, useState } from 'react';
 import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './userSlice';
 import Profile from './components/Profile/Profile';
-
+import Loading from './components/Loading/Loading';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
   const user = useSelector(selectUser);
   const dispatch = useDispatch()
 
@@ -33,6 +36,12 @@ function App() {
     return unsubscribe
   }, [dispatch])
   
+  const errorOccurred = (error) => {
+    setLoading(false);
+    toast.error(`Error Occurred: ${error.message}`);
+    console.log(error.message);
+  }
+
 
   return (
     <div className='app'>

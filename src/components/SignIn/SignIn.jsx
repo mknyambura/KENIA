@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import './SignIn.scss'
-import firebase from 'firebase/compat/app'
+// import firebase from 'firebase/compat/app'
 import 'firebase/compat/database'
 // import 'firebase/auth';
 // import firebase from '@firebase/app';

@@ -46,11 +46,12 @@
                         color: #fff;
                         font-weight: 600;
                         background-color: #0e5002;
+                        opacity: 0.8;
                         margin-top: 5%;
                         border: none;
                         transition: all 0.5s ease-in-out;
                         &:hover{
-                            background-color: #20b406;
+                            opacity: 1;
                             cursor: pointer;
                         }
                     }

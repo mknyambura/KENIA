@@ -1,6 +1,6 @@
 import Search from '@mui/icons-material/Search'
 import React, { useEffect, useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 // import Profile from '../Profile/Profile'
 import './Navbar.scss'
 
