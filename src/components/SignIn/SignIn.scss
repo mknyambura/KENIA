@@ -1,5 +1,5 @@
 .sign-in-screen{
-    max-width: 300px;
+    max-width: 400px;
     padding: 70px;
     margin-left: auto;
     margin-right: auto;
@@ -43,5 +43,24 @@
                 }
             }
         }
+    }
+}
+@media screen and (max-width: 550px){
+    .sign-in-screen{
+        max-width: 300px;
+        padding: 30px;
+        margin: auto;
+        form{
+
+            h1{
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+@media screen and (min-width: 800px){
+    .sign-in-screen{
+        padding: 50px;
+        max-width: 400px;
     }
 }

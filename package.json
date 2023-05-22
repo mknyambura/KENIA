@@ -4,6 +4,9 @@
   "private": true,
   "proxy": "http://localhost:3000",
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.11",
     "@reduxjs/toolkit": "^1.9.3",
     "@stripe/stripe-js": "^1.52.0",
